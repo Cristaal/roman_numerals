@@ -26,4 +26,8 @@ describe("romanNumeral", function() {
   it("will return roman numeral I for 1", function() {
     expect(romanNumeral(1)).to.equal("I");
   });
+
+  it("will return 'MM' for 2,000", function() {
+    expect(romanNumeral(2000)).to.equal("MM")
+  })
 });

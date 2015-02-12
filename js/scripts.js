@@ -18,7 +18,7 @@ var romanNumeral = function(input) {
   var result = "";
 
   romanNum.forEach(function(number) {
-    if (thousand/input === 1) {
+    if (input/thousand === 1) {
        result = romanNum[0]
     } else if (fiveHundred/input === 1) {
        result = romanNum[1]
